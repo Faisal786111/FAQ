@@ -1,0 +1,187 @@
+@font-face {
+    font-family: WorkSans-bold;
+    src: url("assets/fonts/static/WorkSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: WorkSans-regular;
+    src: url("assets/fonts/static/WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: WorkSans-semibold;
+    src: url("assets/fonts/static/WorkSans-SemiBold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --ff-bold: WorkSans-bold;
+    --ff-regular: WorkSans-regular;
+    --ff-semibold: WorkSans-semibold;
+
+    --fs: 17px;
+}
+
+body {
+    font-family: var(--ff-regular);
+    font-size: var(--fs);
+    background-color: hsl(276, 71%, 95%);
+    height: 100vh;
+}
+
+main {
+    height: 30vh;
+    background: url("assets/images/background-pattern-desktop.svg");
+}
+
+.faq-accordion-container {
+    height: max-content;
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    position: relative;
+    inset: 6rem 25% 3rem 25%;
+    border-radius: 1.5rem;
+    box-shadow: 1px 1px 15px 1px hsl(290, 45%, 15%);
+}
+
+.faq-title {
+    display: flex;
+    padding: 2rem 0rem 1rem 2rem;
+}
+
+.faq-title>h1 {
+    margin-left: 1rem;
+    font-weight: bolder;
+    color: hsl(292, 39%, 15%);
+    font-family: WorkSans-Bold;
+    font-size: 3rem;
+}
+
+.faq-details {
+    padding-bottom: 1rem;
+}
+
+details {
+    margin: 2rem;
+    display: flex;
+}
+
+summary {
+    cursor: pointer;
+    color: hsl(292, 39%, 15%);
+    font-family: 'WorkSans-semibold';
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+summary::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: url("assets/images/icon-plus.svg");
+    background-size: cover;
+    transition: 0.2s;
+
+}
+
+summary:hover {
+    color: hsl(278, 94%, 57%);
+    transition: color 0.2s;
+}
+
+details[open] .active-summary::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: url("assets/images/icon-minus.svg");
+    background-size: cover;
+}
+
+article {
+    margin: 2rem 0 0.5rem 0;
+    color: hsl(287, 5%, 33%);
+}
+
+@media (0px < width <=400px) {
+    main {
+        background: url("assets/images/background-pattern-mobile.svg");
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq-accordion-container {
+        width: 320px;
+        inset: 6rem auto;
+        border-radius : 0.5rem
+    }
+
+    .faq-title>h1 {
+        font-size: 2rem;
+    }
+
+    .faq-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    details {
+        width: 300px;
+        margin: 1rem 0;
+    }
+
+    summary {
+        padding: 1rem 0.5rem 1rem 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    summary::after {
+        content: "";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 6rem;
+        height: 2rem;
+    }
+
+    #detail-2 summary::after {
+        content: "";
+        height: 32px;
+        width: 32px;
+    }
+
+    #detail-4 summary::after {
+        content: "";
+        height: 31px;
+        width: 70px;
+    }
+
+    .active-summary::after {
+        content: "";
+        width: 55px;
+        margin-left: 1rem;
+    }
+
+    #detail-1 .active-summary::after , #detail-3 .active-summary::after {
+        content: "";
+        width: 55px;
+        height: 35px;
+    }   
+
+}
