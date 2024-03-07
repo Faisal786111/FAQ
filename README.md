@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: ( https://faisal786111.github.io/FAQ-accordion/)
 
 ## My process
 
@@ -71,23 +71,13 @@ To elevate my web development skills, I plan to focus on advancing my proficienc
 
 Ensuring that my web projects are fully responsive across various devices is a priority. I will continue to refine my skills in responsive design, employing media queries effectively, and staying updated on best practices to provide users with a seamless experience regardless of their device.
 
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
 - [SitePoint](https://www.sitepoint.com/style-html-details-element/) - This helped me for learning `<details>` tag.
 - [MS Powertoys](https://learn.microsoft.com/en-us/windows/powertoys/) - This helped me for picking the colors which I want. 
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Author
 
-- Website - [Faisal Khan](https://faisal786111.github.io/Grid-system/)
+- Website - [Faisal Khan]( https://faisal786111.github.io/FAQ-accordion/)
 - Frontend Mentor - [@Faisal786111](https://www.frontendmentor.io/profile/Faisal786111)
 - Twitter - [@Faisal_DevLife](https://twitter.com/Faisal_DevLife)
