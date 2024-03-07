@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: ( https://faisal786111.github.io/FAQ-accordion/)
+- Live Site URL: ( https://faisal786111.github.io/FAQ/)
 
 ## My process
 
@@ -78,6 +78,6 @@ Ensuring that my web projects are fully responsive across various devices is a p
 
 ## Author
 
-- Website - [Faisal Khan]( https://faisal786111.github.io/FAQ-accordion/)
+- Website - [Faisal Khan]( https://faisal786111.github.io/FAQ/)
 - Frontend Mentor - [@Faisal786111](https://www.frontendmentor.io/profile/Faisal786111)
 - Twitter - [@Faisal_DevLife](https://twitter.com/Faisal_DevLife)
