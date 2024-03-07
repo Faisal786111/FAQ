@@ -114,7 +114,7 @@ article {
     color: hsl(287, 5%, 33%);
 }
 
-@media (0px < width <=400px) {
+@media (0px < width <= 375px) {
     main {
         background: url("assets/images/background-pattern-mobile.svg");
         height: 40vh;
